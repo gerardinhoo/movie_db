@@ -1,0 +1,33 @@
+#search {
+  margin-top: 20%;
+  color: #ffff;
+  font-size: 2.5rem;
+  margin-right: 7rem;
+}
+
+body {
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.card-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card {
+  margin: 12.5%;
+}
+
+.card-img {
+  height: 24rem;
+}
+
+#searchHeading {
+  margin-left: 12.5%;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+}
