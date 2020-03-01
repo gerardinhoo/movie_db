@@ -2,7 +2,7 @@ const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
 // const request = require("request")
-const axios = require("axios")
+const axios = require("request")
 
 
 const app = express();
@@ -16,6 +16,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 // RENDER PLAIN JS TRHOUGH EJS FILE FROM SERVER GET REQUEST
+app.get("/search", (req, res) => {
+    res.render("search")
+})
+
 
 app.get("/results", (req, response) => {
     let query = req.query.search;
